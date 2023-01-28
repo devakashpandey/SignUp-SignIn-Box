@@ -1,38 +1,68 @@
-.App {
-  text-align: center;
-}
+.main-div{
+                      height: 100vh;
+                      width: 100%;
+                      display: flex;
+                      flex-direction: column;
+                      justify-content: center;
+                      align-items: center;
+                      
+                   }
+                   
+        
+                   
+                   label{
+                     margin: 5px;
+                     font-weight: 500;
+                   }
+                   .signup-page{
+                      background-color: rgb(20, 106, 172);
+                      height: 250px;
+                      width: 350px;
+                      margin-top: 20px;
+                      display: flex;
+                      flex-direction: column;
+                      align-items: center;
+                      justify-content: center;
+                      border-radius: 20px;
+                      box-shadow: 2px 3px 4px rgb(17, 17, 17);
+                      color:white;
+                    }
+                    
+                    .signup{
+                      margin-top: 10px;
+                      padding: 5px 15px;
+                      font-weight: 500;
+                      border: none;
+                      background-color: rgb(218, 242, 59);
+                    }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+                    .signin-page{
+                      background-color: rgb(172, 248, 118);
+                      height: 250px;
+                      width: 350px;
+                      margin-top: 10px;
+                      display: flex;
+                      flex-direction: column;
+                      align-items: center;
+                      justify-content: center;
+                      border-radius: 20px;
+                      box-shadow: 2px 3px 4px rgb(17, 17, 17);
+                    }
+                    
+                    input{
+                      padding:3px 8px;
+                      outline: none;
+                      border: 1px solid blue;
+                    }
+                    
+                    .signin{
+                      margin-top: 10px;
+                      padding: 5px 15px;
+                      font-weight: 500;
+                      border: none;
+                      background-color: cyan;
+                    }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+                    html{
+                      background-color: antiquewhite;
+                    }
